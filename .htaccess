@@ -1,0 +1,117 @@
+#<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^djtile.com$
+RewriteRule ^(.*)$ https://djtile.com/$1 [R=301]
+#RewriteCond %{HTTPS} !=on
+#RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+#</IfModule>
+
+#Option +FollowSymLinks
+RewriteEngine on
+RewriteBase /
+RewriteRule ^index\.html$ / [NC,R=301,L]
+#Redirect 301 /index.html /
+Redirect 301 /company.html https://djtile.com/about.html
+Redirect 301 /faq.html https://djtile.com/
+Redirect 301 /portfolio.html https://djtile.com/projects.html
+Redirect 301 /publications.html https://djtile.com/
+Redirect 301 /products/products-new-arrivals.html https://djtile.com/capabilities.html
+Redirect 301 /portfolio/portfolio-health-care.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-restaurant.html https://djtile.com/projects.html
+Redirect 301 /products/products-granite.html https://djtile.com/capabilities.html
+Redirect 301 /showroom.html https://djtile.com/
+Redirect 301 /products/products-quartzite.html https://djtile.com/capabilities.html
+Redirect 301 /portfolio/portfolio-health-care-general.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-health-care-guam-naval.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-restaurant-epic.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-kitchens.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-kitchens-beige.html https://djtile.com/projects.html
+Redirect 301 /products/products-marble.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-office.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-office-foundry.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-kitchens-other.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-health-care-queen.html https://djtile.com/projects.html
+Redirect 301 /products.html https://djtile.com/capabilities.html
+Redirect 301 /portfolio/portfolio-education.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-education-stadium.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-education-academy.html https://djtile.com/projects.html
+Redirect 301 /products/products-arabescato.html https://djtile.com/capabilities.html
+Redirect 301 /portfolio/portfolio-office-680-folsom.html https://djtile.com/projects.html
+Redirect 301 /bim-vdc.html https://djtile.com/
+Redirect 301 /portfolio/portfolio-kitchens-black.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-hotel.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-hotel-canterbury.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-hotel-regis.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-retail.html https://djtile.com/projects.html
+Redirect 301 /products/products-onyx-travertine.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-retail-nordstrom-hillsdale.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-retail-westfield.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-retail-ferry.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-millenium.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-taube.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-axis.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-ava.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-the-wilson.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-5th-street.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-alta-laguna.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-2nd.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-palms.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-soma.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-45-lansing.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-900-folsom.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-arden.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-restaurant-boudin.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-office-riverpark.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-folsom.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-vida-sf.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-infinity.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-office-sfpuc.html https://djtile.com/projects.html
+Redirect 301 /products/products-limestone.html https://djtile.com/capabilities.html
+Redirect 301 /portfolio/portfolio-retail-nordstrom-corte-madera.html https://djtile.com/projects.html
+Redirect 301 /contact.php https://djtile.com/contact.html
+Redirect 301 /portfolio/portfolio-office-350-mission.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-bathrooms.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-convention.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-hotel-intercontinental.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-bathrooms2.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-convention-stanford.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-bathrooms3.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-rincon.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-homer.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-convention-mcenry.html https://djtile.com/projects.html
+Redirect 301 /services.html https://djtile.com/capabilities.html
+Redirect 301 /video.html https://djtile.com/
+Redirect 301 /portfolio/portfolio-retail-metreon.html https://djtile.com/projects.html
+Redirect 301 /small.html https://djtile.com/
+Redirect 301 /large.html https://djtile.com/
+Redirect 301 /services-design-build.html https://djtile.com/capabilities.html
+Redirect 301 /services-fabrication-tech.html https://djtile.com/capabilities.html
+Redirect 301 /bim-vcd.html https://djtile.com/capabilities.html
+Redirect 301 /portfolio/portfolio-res-mixed-avalon.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-kitchens-white.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-health-care-cathedral.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-harrison.html https://djtile.comtml/projects.html
+Redirect 301 /portfolio/portfolio-hotel-grandhyatt.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-restaurant-crystal-jade.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-central.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-salesforce-tower.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-1800-van-ness.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-misc.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-health-care-ucsf.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-misc-tasman.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-101-polk.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-retail-nordstrom.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-restaurant-waterbar.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-2001-market.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-convention-moscone.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-office-delmonte.html https://djtile.com/projects.html
+Redirect 301 /services-fabrication.html https://djtile.com/capabilities.html
+Redirect 301 /portfolio/portfolio-res-mixed-sutter.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-res-mixed-fillmore.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-hotel-vitale.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-office-oracle.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-kitchens-white-2.html https://djtile.com/projects.html
+Redirect 301 /portfolio/portfolio-health-care-ucsf-medical-center.html https://djtile.com/projects.html
+

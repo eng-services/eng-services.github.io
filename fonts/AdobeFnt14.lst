@@ -1,0 +1,41 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Light
+FamilyName:Roboto
+StyleName:Light
+FullName:Roboto Light
+MenuName:Roboto Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\www\html project\2016\D-J\Font\Roboto-Light.ttf
+DataFormat:sfntData
+FileLength:140276
+FileModTime:1466732794
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Roboto-Regular
+FamilyName:Roboto
+StyleName:Regular
+FullName:Roboto Regular
+MenuName:Roboto
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\www\html project\2016\D-J\Font\Roboto-Regular.ttf
+DataFormat:sfntData
+FileLength:145348
+FileModTime:1466732794
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
